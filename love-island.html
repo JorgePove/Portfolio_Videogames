@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Island Match 3 — Jorge Gomez</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SIDEBAR —— visible en todas las páginas, activo según URL -->
+  <nav class="sidebar" aria-label="Page sections">
+    <a href="index.html#hero"     class="sidebar__link"><span>Intro</span></a>
+    <a href="index.html#bio"      class="sidebar__link"><span>About</span></a>
+    <a href="index.html#work"     class="sidebar__link"><span>Work</span></a>
+    <a href="index.html#personal" class="sidebar__link"><span>Projects</span></a>
+    <a href="about.html"          class="sidebar__link"><span>Contact</span></a>
+  </nav>
+
+  <header class="nav">
+    <a href="index.html" class="nav__logo">Jorge Gomez</a>
+    <nav class="nav__links">
+      <a href="index.html" class="nav__link nav__link--active">Work</a>
+      <a href="about.html" class="nav__link">About</a>
+    </nav>
+  </header>
+
+  <!-- PROJECT HERO -->
+  <section class="project-hero animate">
+    <a href="index.html" class="project-hero__back">← Back to Work</a>
+    <div class="project-hero__titles">
+      <!-- ============================================================
+           TÍTULO Y SUBTÍTULO
+           Edita el <h1> y el <p> con el nombre y descripción corta del proyecto.
+           ============================================================ -->
+      <h1 class="project-hero__title">Love Island Match 3</h1>
+      <p class="project-hero__subtitle">Mobile Match-3 puzzle game — First professional project</p>
+    </div>
+    <div class="project-meta">
+
+      <!-- ============================================================
+           METADATOS DEL PROYECTO
+           Edita los <span class="project-meta__value"> con los datos reales.
+           Puedes añadir o eliminar bloques project-meta__item según necesites.
+           ============================================================ -->
+
+      <div class="project-meta__item">
+        <span class="project-meta__label">Project Name</span>
+        <!-- NOMBRE DEL PROYECTO -->
+        <span class="project-meta__value">Love Island Match 3</span>
+      </div>
+
+      <div class="project-meta__item">
+        <span class="project-meta__label">Studio</span>
+        <!-- NOMBRE DEL ESTUDIO/EMPRESA -->
+        <span class="project-meta__value">Genera Games<!-- Escribe aquí el nombre del estudio --></span>
+      </div>
+
+      <div class="project-meta__item">
+        <span class="project-meta__label">Role</span>
+        <!-- TU ROL EN EL PROYECTO -->
+        <span class="project-meta__value">Junior Level Designer<!-- Escribe aquí tu rol: p.ej. Level Designer --></span>
+      </div>
+
+      <div class="project-meta__item">
+        <span class="project-meta__label">Platform</span>
+        <!-- PLATAFORMA -->
+        <span class="project-meta__value">Mobile (iOS &amp; Android)</span>
+      </div>
+
+      <div class="project-meta__item">
+        <span class="project-meta__label">Date</span>
+        <!-- FECHAS DEL PROYECTO -->
+        <span class="project-meta__value">February 2020 - September 2020<!-- Escribe aquí las fechas: p.ej. June 2021 – March 2022 --></span>
+      </div>
+
+      <!-- ============================================================
+           LINKS OPCIONALES (Steam, App Store, web del proyecto…)
+           Si no tienes links, elimina este bloque project-meta__item entero.
+           Si tienes más de uno, sepáralos con &nbsp;·&nbsp; como en el ejemplo.
+           ============================================================ -->
+      <div class="project-meta__item">
+        <span class="project-meta__label">Links</span>
+        <span class="project-meta__value">
+          <!-- LINK 1 — sustituye la URL y el texto -->
+          <a href="#" target="_blank" rel="noopener" class="project-meta__link"><!-- Texto del link, p.ej. App Store ↗ --></a>
+          <!-- Para añadir un segundo link, descomenta la línea de abajo:
+          &nbsp;·&nbsp;
+          <a href="#" target="_blank" rel="noopener" class="project-meta__link">Segundo link ↗</a>
+          -->
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECT DESCRIPTION -->
+  <section class="project-desc animate animate--delay-1">
+
+    <!-- ============================================================
+         BULLET POINTS — Lo que hiciste en este proyecto
+         Cada <li> es un punto. Añade, elimina o reordena libremente.
+         ============================================================ -->
+    <ul class="project-desc__list">
+      <!-- BULLET 1 — escribe aquí tu primer punto -->
+      <li>Ownership and creation of over 500 levels for a Match 3 mobile game.</li>
+
+      <!-- BULLET 2 — escribe aquí tu segundo punto -->
+      <li>Worked closely with Art, Code, Production and Economy Design to align goals, concepts, playtesting and deadlines.</li>
+
+      <!-- BULLET 3 — escribe aquí tu tercer punto -->
+      <li>Fast creation, iteration and testing of new levels, using Unity.</li>
+
+
+    <!-- ============================================================
+         SECCIÓN "ABOUT THE GAME" (opcional)
+         Escribe aquí un párrafo corto describiendo el juego.
+         Si no quieres esta sección, elimina el bloque project-desc__about entero.
+         ============================================================ -->
+    <div class="project-desc__about">
+      <div class="project-desc__about-header">
+        <span class="section-header__label">About the Game</span>
+      </div>
+      <!-- DESCRIPCIÓN DEL JUEGO — edita el párrafo de abajo -->
+      <p><!-- Escribe aquí una breve descripción del juego. --></p>
+    </div>
+
+  </section>
+
+  <!-- PROJECT MEDIA -->
+  <section class="project-media animate animate--delay-2">
+    
+
+   
+
+    <!-- ============================================================
+         VÍDEO DE YOUTUBE
+         Sustituye TU_ID_DE_VIDEO por el ID real del vídeo de YouTube.
+         El ID es la parte de la URL después de "v=":
+           https://www.youtube.com/watch?v=ESTE_ES_EL_ID
+                                              ^^^^^^^^^^^^
+
+         Resultado:
+           <iframe src="https://www.youtube.com/embed/ESTE_ES_EL_ID" ...></iframe>
+
+         Si no tienes vídeo todavía, deja este bloque como está
+         (no se mostrará ningún iframe vacío).
+         ============================================================ -->
+    <div class="project-media__video-wrap">
+      <!-- VÍDEO — sustituye TU_ID_DE_VIDEO por el ID real de YouTube -->
+      <iframe
+        src="https://www.youtube.com/watch?v=Yf55bWeUuGk"
+        title="Love Island Match 3 gameplay"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="width:100%; aspect-ratio:16/9; display:block;"
+      ></iframe>
+    </div>
+
+  </section>
+
+  <footer class="footer"><span>© Jorge Gomez</span></footer>
+  <script src="main.js"></script>
+</body>
+</html>

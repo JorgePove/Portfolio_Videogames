@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boss Wanted — Jorge Gomez</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SIDEBAR —— visible en todas las páginas, activo según URL -->
+  <nav class="sidebar" aria-label="Page sections">
+    <a href="index.html#hero"     class="sidebar__link"><span>Intro</span></a>
+    <a href="index.html#bio"      class="sidebar__link"><span>About</span></a>
+    <a href="index.html#work"     class="sidebar__link"><span>Work</span></a>
+    <a href="index.html#personal" class="sidebar__link"><span>Projects</span></a>
+    <a href="about.html"          class="sidebar__link"><span>Contact</span></a>
+  </nav>
+  <header class="nav">
+    <a href="index.html" class="nav__logo">Jorge Gomez</a>
+    <nav class="nav__links">
+      <a href="index.html" class="nav__link nav__link--active">Work</a>
+      <a href="about.html" class="nav__link">About</a>
+    </nav>
+  </header>
+  <section class="project-hero animate">
+    <a href="index.html" class="project-hero__back">← Back to Work</a>
+    <div class="project-hero__titles">
+      <h1 class="project-hero__title">Boss Wanted</h1>
+      <p class="project-hero__subtitle">Original board game — Personal project</p>
+    </div>
+    <div class="project-meta">
+      <div class="project-meta__item">
+        <span class="project-meta__label">Project Name</span>
+        <span class="project-meta__value">Boss Wanted</span>
+      </div>
+      <div class="project-meta__item">
+        <span class="project-meta__label">Type</span>
+        <span class="project-meta__value">Board Game</span>
+      </div>
+      <div class="project-meta__item">
+        <span class="project-meta__label">Role</span>
+        <span class="project-meta__value">Game Designer</span>
+      </div>
+      <div class="project-meta__item">
+        <span class="project-meta__label">Status</span>
+        <span class="project-meta__value">In development</span>
+      </div>
+    </div>
+  </section>
+  <section class="project-desc animate animate--delay-1">
+
+    <!-- ============================================================
+         DESCRIPCIÓN — Boss Wanted
+         Añade aquí tus bullet points. Cada <li> es un punto.
+         Puedes añadir, eliminar o reordenar los <li> libremente.
+         Ejemplo:
+           <li>Diseñé el sistema de reglas principal partiendo de cero.</li>
+           <li>Playtesting con más de 20 jugadores en distintas sesiones.</li>
+         ============================================================ -->
+    <ul class="project-desc__list">
+      <!-- BULLET 1 — escribe aquí tu primer punto -->
+      <li>Personal project where I designed, balanced, prototyped and playtested a brand new board game, completely from scratch.</li>
+
+      <!-- BULLET 2 — escribe aquí tu segundo punto -->
+      <li>Boss Wanted is a board game for 2 to 6 players, where each player controls a monster and tries to run through a trap-filled obstacle course dungeon, while trying to trip over the other players, so they can reach the end first and become the new dungeon Boss.</li>
+
+      <!-- BULLET 3 — escribe aquí tu tercer punto (duplica este bloque para añadir más) -->
+      <li>Mod fully playeable on TableTop simulator.</li>
+    </ul>
+
+    <div class="project-desc__downloads">
+      <div class="project-desc__downloads-header">
+        <span class="section-header__label">Downloads</span>
+      </div>
+      <div class="project-desc__downloads-list">
+        <!-- ============================================================
+             DESCARGAS — Boss Wanted
+             Cuando tengas archivos listos (manual, reglas, imprimibles...),
+             súbelos a la carpeta "downloads/" y enlázalos aquí.
+             Duplica el bloque <p> de ejemplo para cada archivo.
+             Ejemplo:
+               <p>
+                 <a href="downloads/boss-wanted-manual.pdf" target="_blank" rel="noopener">
+                   Manual de reglas <span class="about-block__ext">↓ PDF</span>
+                 </a>
+               </p>
+             ============================================================ -->
+        	<p>
+                 <a href="downloads/boss-wanted-manual.pdf" target="_blank" rel="noopener">
+                   Manual de reglas <span class="about-block__ext">↓ PDF</span>
+                 </a>
+                </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-media animate animate--delay-2">
+    <div class="project-media__grid project-media__grid--three">
+
+      <!-- ============================================================
+           GALERÍA DE IMÁGENES — Boss Wanted
+           Sube tus fotos/renders a la carpeta "img/boss-wanted/" y
+           sustituye cada bloque placeholder por el de imagen real.
+
+           Patrón para cada imagen:
+             <div class="project-media__item">
+               <img src="img/boss-wanted/NOMBRE-ARCHIVO.jpg" alt="Descripción breve" />
+             </div>
+
+           Tamaño recomendado: 600×338 px (ratio 16:9).
+           El CSS recortará a 16:9 automáticamente si el ratio es distinto.
+           Puedes tener tantas imágenes como quieras; borra o duplica los bloques.
+           ============================================================ -->
+
+      <!-- IMAGEN 1 — sustituye el placeholder cuando tengas la foto -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+      <!-- IMAGEN 2 -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+      <!-- IMAGEN 3 -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+      <!-- IMAGEN 4 -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+      <!-- IMAGEN 5 -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+      <!-- IMAGEN 6 (añade o elimina bloques según necesites) -->
+      <div class="project-media__item project-media__item--placeholder"><span>Image coming soon</span></div>
+
+    </div>
+  </section>
+  <footer class="footer"><span>© Jorge Gomez</span></footer>
+  <script src="main.js"></script>
+</body>
+</html>
